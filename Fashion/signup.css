@@ -1,0 +1,133 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 5px rgb(77, 75, 75);
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+nav li{
+    margin-right: 30px;
+}
+h2{
+    text-transform: capitalize;
+    color:white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+a{
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+nav li{
+    margin-right: 30px;
+}
+
+body{
+    background: url('o.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.ih{
+    height: 5vh;
+    border-spacing: 30%;
+    margin: 4px;
+}
+.A{
+    height: 7vh;
+    background: pink;
+    margin-left: 45%;
+    width: 15%;
+    margin-top: -5%;
+}
+fieldset{
+    border-radius: 50px;
+    height: 75vh;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 8%;
+    box-shadow: 0 0 10px whitesmoke;
+    border: none;
+}
+
+form{
+    margin-left: 40%;
+    margin-top: -10%;
+}
+.K{
+    margin-left: -10%;
+}
+p{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.O{
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 100%;
+}
+h1{
+    margin-left: 35.9%;
+    color: whitesmoke;
+}
+label{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+label{
+    font-size: x-large;
+}
+.I{
+    margin-top: 23%;
+    margin-left: -1%;
+    align-items: center;
+}
+.form{
+    margin-bottom: 7%;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+button{
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    color: pink;
+    text-transform: uppercase;
+    height: 8vh;
+    width: 25%;
+    text-align: center;
+    background: burlywood;
+}
+button:hover{
+    background: rgb(136, 229, 133);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(236, 169, 192);
+}

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    body{
+        background: url('o.jpg');
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        height: 100vh;
+    }
+        header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        display: flex;
+        box-shadow: 0 0 5px rgb(77, 75, 75);
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    h2{
+        text-transform: capitalize;
+        color:white;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    header a{
+        color:white;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    li{
+        margin-right: 20px;
+    }
+    #sign{
+        border: none;
+        background:rgb(230, 46, 107);
+        color: white;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    header a:hover{
+        color: gold;
+    }
+img{
+    border-radius: 50%;
+    margin-left: 850px;
+}
+h1 {
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-size: 30px;
+}
+button{
+    margin-left: 40px;
+    padding: 20px;
+    width:200px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    height: 60px;
+    text-align: center;
+    background: radial-gradient(rgb(228, 99, 142), right, rgb(236, 186, 220) left);
+    transition:  7s ease;
+}
+button:hover{
+    background: rgb(230, 46, 107);
+    box-shadow: 0 0 10px rgb(226, 109, 150);
+    border-radius: 9px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: wheat;
+}

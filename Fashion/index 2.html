@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.beautyhub.com</title>
+    <link rel="shortcut icon" href="fine.jpg" type="image/x-icon">
+</head>
+<style>
+    body{
+        background: url('o.jpg');
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        display: flex;
+        box-shadow: 0 0 5px rgb(77, 75, 75);
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    h2{
+        text-transform: capitalize;
+        color:white;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    a{
+        color:white;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    li{
+        margin-right: 20px;
+    }
+    #sign{
+        border: none;
+        background:rgb(230, 46, 107);
+        color: white;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    header a:hover{
+        color: gold;
+    }
+    img{
+        height: 500px;
+        width: 400px;   
+        border-radius: 8px;
+        align-items: center;
+        display: flex;
+        transition: 6s ease box-shadow 4s ease;
+    }
+    img:hover{
+        box-shadow: 0 0 20px gray;
+    }
+    td{
+        padding: 10px;
+        padding-top:80px;
+        padding-left: 30px;
+    }
+    #see{
+        text-align: center;
+        margin-left: 45%;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        width: 300px;
+        margin-top: 8px;
+        background:linear-gradient( to right,pink,rgb(235, 129, 147));
+        box-shadow: 0 0  20px rgb(219, 186, 192);
+        text-transform: capitalize;
+        transition: background 3s ease;
+        margin-right: 15%;
+    }
+    #see:hover{
+        background: linear-gradient(to right ,rgb(240, 150, 165),rgb(236, 134, 151));
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <h2>fashionHub</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index1.html">ankara</a></li>
+                <li><a href="index 2.html">gowns</a></li>
+                <li><a href="index 3.html">Portfolio</a></li>
+                <li><a id="sign" href="index 4.html">signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <td><img src="O.jpg" alt="rj"></td>
+            <td><img src="five.jpg" alt="rj"></td>
+            <td><img src="dell.jpg" alt="rj"></td>
+        </tr>
+    </table><br>
+        <a id="see" href="design 1.html">See More</a>
+    <script>
+        function Myfunction() {
+            document.getElementById("see").innerHTML = "Processing...."
+        }
+    </script>
+</body>
+</html>
